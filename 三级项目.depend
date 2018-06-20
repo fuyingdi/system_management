@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1529498787 source:c:\users\fuyingdi\desktop\c project\三级项目\main.cpp
+	<iostream>
+	<string>
+	<stdlib.h>
+	<CList.h>
+	<fstream>
+	<map>
+
+1529499011 source:c:\users\fuyingdi\desktop\c project\三级项目\clist.cpp
+	<CList.h>
+	<iostream>
+
+1529498618 c:\users\fuyingdi\desktop\c project\三级项目\clist.h
+	<string>
+	<map>
+
