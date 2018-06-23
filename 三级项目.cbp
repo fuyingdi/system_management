@@ -15,7 +15,14 @@
 					<Add option="-std=c++11" />
 					<Add option="-g" />
 					<Add directory="../三级项目" />
+					<Add directory="../../../../../Program Files/MySQL/MySQL Server 8.0/include" />
 				</Compiler>
+				<Linker>
+					<Add library="../../../../../Program Files/MySQL/MySQL Server 8.0/lib/libmysql.lib" />
+					<Add library="../../../../../Program Files/MySQL/MySQL Server 8.0/lib/mysqlclient.lib" />
+					<Add library="../../../../../Program Files/MySQL/MySQL Server 8.0/lib/mysqlservices.lib" />
+					<Add directory="C:/Program Files/MySQL/MySQL Server 8.0/lib" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/三级项目" prefix_auto="1" extension_auto="1" />
@@ -34,7 +41,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="../../../../../Program Files/MySQL/MySQL Server 8.0/include/mysql" />
+			<Add directory="C:/Program Files/MySQL/MySQL Server 8.0/include" />
 		</Compiler>
+		<Linker>
+			<Add library="../../../../../Program Files/MySQL/MySQL Server 8.0/lib/libmysql.lib" />
+		</Linker>
 		<Unit filename="CList.cpp" />
 		<Unit filename="CList.h" />
 		<Unit filename="main.cpp" />

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1529498787 source:c:\users\fuyingdi\desktop\c project\三级项目\main.cpp
+1529656184 source:c:\users\fuyingdi\desktop\c project\三级项目\main.cpp
 	<iostream>
 	<string>
 	<stdlib.h>
@@ -7,11 +7,56 @@
 	<fstream>
 	<map>
 
-1529499011 source:c:\users\fuyingdi\desktop\c project\三级项目\clist.cpp
+1529725113 source:c:\users\fuyingdi\desktop\c project\三级项目\clist.cpp
 	<CList.h>
 	<iostream>
+	<stdlib.h>
 
-1529498618 c:\users\fuyingdi\desktop\c project\三级项目\clist.h
+1529656184 c:\users\fuyingdi\desktop\c project\三级项目\clist.h
 	<string>
 	<map>
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\mysql.h
+	<stdbool.h>
+	<stddef.h>
+	<sys/types.h>
+	<windows.h>
+	<winsock2.h>
+	"binary_log_types.h"
+	"my_list.h"
+	"mysql_com.h"
+	"mysql/client_plugin.h"
+	"mysql_version.h"
+	"mysql_time.h"
+	"errmsg.h"
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\binary_log_types.h
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\my_list.h
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\mysql_com.h
+	<stdbool.h>
+	"my_command.h"
+	"my_io.h"
+	<stdbool.h>
+	<mysql/udf_registration_types.h>
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\my_command.h
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\mysql\udf_registration_types.h
+	<stdbool.h>
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\mysql\client_plugin.h
+	<stdarg.h>
+	<stdlib.h>
+	"plugin_auth_common.h"
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\mysql\plugin_auth_common.h
+	<windows.h>
+
+1523150792 c:\program files\mysql\mysql server 8.0\include\mysql_version.h
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\mysql_time.h
+
+1523148290 c:\program files\mysql\mysql server 8.0\include\errmsg.h
 

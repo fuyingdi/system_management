@@ -11,11 +11,11 @@ class Node
 
 public:
     Node();
+    Node(string name, string age, string sex);
     void print();
     void set_data(map<string,string> userdata);
     void set_pre(Node *pre);
     void set_next(Node *next);
-
     map<string,string> data;
     Node *pNext,*pPre;
 };
@@ -29,8 +29,9 @@ public:
     Node* GetHead();
     Node* GetTail();
     int RemoveHead();
-    int ReamoveTail();
+    int RemoveTail();
     int AddTail();
+    int AddTail(string name, string age, string sex);
     int AddHead();
     int RemoveAll();
     CList* operator+();
@@ -39,7 +40,9 @@ public:
     void RemoveAt(int i);
     void InsertBefore(int i);
     void InsertAfter(int i);
-    int Find(string data);
+    // find_by_name£¬·µ»ØNode
+    Node *Find_by_Name(string data);
+    void Print();
 private:
     Node *head;
     Node *tail;
